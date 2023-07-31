@@ -7,7 +7,7 @@ import VueDevTools from 'vite-plugin-vue-devtools'
 import type { LiveDesignerOptions } from '@pinegrow/vite-plugin'
 
 export default defineConfig({
-  siteUrl: 'https://spotted-kingfisher-with-iles-tailwindcss.netlify.app',
+  siteUrl: 'https://spotted-kingfisher-iles-tailwindcss.netlify.app',
   turbo: true,
   jsx: 'preact', // 'solid', 'react', 'vue'
   svelte: true,

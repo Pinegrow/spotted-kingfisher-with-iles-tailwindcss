@@ -2,7 +2,7 @@
 
 This is a starter template that pre-includes the [Pinegrow îles Module](https://www.npmjs.com/package/@pinegrow/iles-module), [Pinegrow Tailwind CSS Plugin](https://www.npmjs.com/package/@pinegrow/tailwindcss-plugin) and other goodies for Vue Designer.
 
-Demo - https://spotted-kingfisher-with-iles-tailwindcss.netlify.app/
+Demo - https://spotted-kingfisher-iles-tailwindcss.netlify.app/
 
 ## Vue Designer
 
