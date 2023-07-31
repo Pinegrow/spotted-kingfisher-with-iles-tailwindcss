@@ -12,13 +12,13 @@
       <BaseIcon
         v-if="isDark"
         name="i-material-symbols-dark-mode-outline"
-        height="24px"
+        class="text-2xl"
       >
       </BaseIcon>
       <BaseIcon
         v-else
         name="i-material-symbols-light-mode-outline"
-        height="24px"
+        class="text-2xl"
       >
       </BaseIcon>
     </transition>

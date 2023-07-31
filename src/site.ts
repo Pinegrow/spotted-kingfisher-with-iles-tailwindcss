@@ -1,6 +1,6 @@
 export default {
-  title: `Vue Designer`,
-  description: 'Vue Designer îles Tailwind CSS - Quick start template',
+  title: `Spotted Kingfisher`,
+  description: `Help the world's most iconic species`,
   author: 'Pinegrow',
   nav: [
     { text: 'Home', link: '/' },
