@@ -5,7 +5,7 @@
   <main>
     <HeroSection client:load />
     <GetInvolved client:load />
-    <DiscoverProjects client:load />
+    <DiscoverProjects client:visible />
     <TheVolunteering client:load />
   </main>
 </template>
