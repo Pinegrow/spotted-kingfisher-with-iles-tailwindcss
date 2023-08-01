@@ -1,6 +1,6 @@
-# Spotted Kingfisher with îles (MPA SSG) and Tailwind CSS!
+# Spotted Kingfisher with Iles and Tailwind CSS!
 
-Spotted Kingfisher is a charity organization that helps endangered species by educating the community, and running various volunteering programs.
+Jamstack (MPA-SSG) app for an wildlife welfare/charity organization that helps endangered species by educating the community, and running various volunteering programs. While layouts, pages & components are primarily Vue SFCs, the project also includes svelte and jsx/tsx components. Note: Iles supports component formats of multiple frameworks.
 
 This is a sample project created using the [Vue Designer Iles Tailwind CSS - Quick start template](https://github.com/pinegrow/pg-iles-tailwindcss).
 
