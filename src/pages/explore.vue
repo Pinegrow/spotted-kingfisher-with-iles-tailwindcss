@@ -6,7 +6,7 @@
   // const { frontmatter, meta } = usePage()
 </script>
 <template layout="default">
-  <div class="pt-24 pb-12">
+  <div class="py-12">
     <section class="container mt-6 mx-auto p-4">
       <h2 class="mb-4">Facts about the endangered spotted kingfisher</h2>
       <div class="spotted-kingfisher">

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="pt-36 pb-12 text-center bg-primary-100 dark:bg-primary-700 text-primary-900 dark:text-primary-100"
+      class="bg-primary-100 dark:bg-primary-700 dark:text-primary-100 py-12 text-center text-primary-900"
     >
       <div class="container mx-auto px-4">
         <div class="-mx-4 flex flex-wrap">
