@@ -3,10 +3,10 @@
 </page>
 <template>
   <main>
-    <HeroSection client:load />
-    <GetInvolved client:load />
-    <DiscoverProjects client:visible />
-    <TheVolunteering client:load />
+    <HeroSection />
+    <GetInvolved />
+    <DiscoverProjects />
+    <TheVolunteering />
   </main>
 </template>
 <style scoped></style>

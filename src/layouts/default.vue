@@ -15,7 +15,7 @@
       <div class="shadow">
         <slot />
       </div>
-      <TheFooter client:visible />
+      <TheFooter />
     </div>
   </div>
 </template>
