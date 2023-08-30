@@ -4,9 +4,9 @@
 <template>
   <main>
     <HeroSection />
-    <GetInvolved />
+    <GetInvolved client:none />
     <DiscoverProjects />
-    <TheVolunteering />
+    <TheVolunteering client:none />
   </main>
 </template>
 <style scoped></style>
