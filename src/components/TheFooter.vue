@@ -69,6 +69,17 @@
                   class="text-2xl"
                 ></BaseIcon> </a
               ><a
+                href="https://discord.gg/BYp45Nnu5T"
+                aria-label="discord"
+                external
+                target="_blank"
+              >
+                <BaseIcon
+                  name="i-logos-discord-icon"
+                  class="text-2xl"
+                ></BaseIcon>
+              </a>
+              <a
                 href="https://www.youtube.com/@vuedesigner"
                 aria-label="youtube"
                 external
