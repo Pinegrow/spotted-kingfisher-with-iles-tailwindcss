@@ -216,6 +216,10 @@ const pg_fonts = {
   serif: ["'Ruda', sans-serif"],
 }
 
+const pg_font_urls = [
+  'https://fonts.googleapis.com/css?family=Kalam:300,400,700|Ruda:400,500,600,700,800,900&display=swap',
+]
+
 const pg_backgrounds = {
   'design-image':
     "url('https://images.unsplash.com/photo-1444464666168-49d633b86797?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80')",
@@ -229,4 +233,4 @@ const pg_backgrounds = {
 /* prettier-disable */
 /* @ts-nocheck */
 
-export { pg_colors, pg_fonts, pg_backgrounds }
+export { pg_colors, pg_fonts, pg_font_urls, pg_backgrounds }

@@ -3,7 +3,7 @@
 </script>
 <template>
   <div class="relative">
-    <MetaTags />
+    <MetaTags client:load />
     <div
       class="bg-white dark:bg-neutral-950 dark:text-neutral-50 flex flex-col relative text-neutral-900"
     >
