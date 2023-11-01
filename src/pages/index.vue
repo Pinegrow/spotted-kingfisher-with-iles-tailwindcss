@@ -2,11 +2,11 @@
     title: Home
 </page>
 <template>
-  <main>
+  <div>
     <HeroSection />
     <GetInvolved client:none />
     <DiscoverProjects />
     <TheVolunteering client:none />
-  </main>
+  </div>
 </template>
 <style scoped></style>

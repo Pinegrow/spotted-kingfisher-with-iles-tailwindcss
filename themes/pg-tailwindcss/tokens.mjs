@@ -1,4 +1,7 @@
 /* Pinegrow generated Design Panel Begin */
+/* eslint-disable */
+/* prettier-disable */
+/* @ts-nocheck */
 
 const pg_colors = {
   gray: {
@@ -141,17 +144,17 @@ const pg_colors = {
   },
   neutral: {
     50: '#ebebeb',
-    100: '#b7b7b7',
-    200: '#868686',
-    300: '#585858',
-    400: '#2d2d2d',
-    500: '#000000',
-    600: '#000000',
-    700: '#000000',
-    800: '#000000',
-    900: '#000000',
-    950: '#000000',
-    DEFAULT: '#000000',
+    100: '#c4c4c4',
+    200: '#9f9f9f',
+    300: '#7b7b7b',
+    400: '#585858',
+    500: '#383838',
+    600: '#1b1b1b',
+    700: '#191919',
+    800: '#171717',
+    900: '#151515',
+    950: '#131313',
+    DEFAULT: '#101010',
   },
   success: {
     50: '#ecf0ec',
@@ -216,22 +219,16 @@ const pg_fonts = {
   serif: ["'Ruda', sans-serif"],
 }
 
+const pg_font_urls = [
+  'https://fonts.googleapis.com/css?family=Kalam:300,400,700|Ruda:400,500,600,700,800,900&display=swap',
+]
+
 const pg_backgrounds = {
   'design-image':
     "url('https://images.unsplash.com/photo-1444464666168-49d633b86797?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80')",
   'design-image-large':
     "url('https://images.unsplash.com/photo-1444464666168-49d633b86797?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80')",
 }
-
-/* Pinegrow generated Design Panel End */
-
-/* eslint-disable */
-/* prettier-disable */
-/* @ts-nocheck */
-
-const pg_font_urls = [
-  'https://fonts.googleapis.com/css?family=Kalam:300,400,700|Ruda:400,500,600,700,800,900&display=swap',
-]
 
 const pg_background_urls = {
   'design-image':
@@ -241,3 +238,5 @@ const pg_background_urls = {
 }
 
 export { pg_colors, pg_fonts, pg_font_urls, pg_backgrounds, pg_background_urls }
+
+/* Pinegrow generated Design Panel End */

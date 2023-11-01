@@ -3,7 +3,7 @@
 </script>
 <template>
   <div class="relative">
-    <MetaTags />
+    <HeadAndMeta />
     <div
       class="bg-white dark:bg-neutral-950 dark:text-neutral-50 flex flex-col relative text-neutral-900"
     >
@@ -12,9 +12,9 @@
           currentRoute.path === '/' ? 'absolute bg-transparent z-10' : '',
         ]"
       />
-      <div class="shadow">
+      <main class="shadow">
         <slot />
-      </div>
+      </main>
       <TheFooter />
     </div>
   </div>
