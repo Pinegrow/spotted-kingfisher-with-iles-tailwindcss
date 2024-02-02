@@ -6,7 +6,7 @@
     <HeroSection />
     <IslandGetInvolved client:none />
     <DiscoverProjects />
-    <IslandVolunteering client:none />
+    <IslandTheVolunteering client:none />
   </div>
 </template>
 <style scoped></style>
