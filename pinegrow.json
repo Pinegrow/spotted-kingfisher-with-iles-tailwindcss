@@ -1,0 +1,369 @@
+{
+  "files": {
+    "src/pages/index.vue": {
+      "frameworks": [
+        "unplugin-auto-import",
+        "pg.tw.lib",
+        "vite-plugin-vue-devtools",
+        "pg.insight.events",
+        "pg.vue.tree.painter",
+        "@islands/pages",
+        "pg.css.grid",
+        "pg.image.overlay",
+        "pg.code-validator",
+        "pg.project.items",
+        "pg.asset.manager",
+        "@pinegrow/iles-module",
+        "app_designer",
+        "project",
+        "vue",
+        "@vue/devtools",
+        "iles",
+        "@unocss/preset-icons",
+        "unplugin-vue-components",
+        "tw",
+        "pg.html"
+      ]
+    },
+    "src/layouts/default.vue": {
+      "frameworks": [
+        "unplugin-auto-import",
+        "vite-plugin-vue-devtools",
+        "pg.insight.events",
+        "pg.vue.tree.painter",
+        "@islands/pages",
+        "pg.css.grid",
+        "@vue/devtools",
+        "pg.image.overlay",
+        "pg.code-validator",
+        "@pinegrow/iles-module",
+        "pg.project.items",
+        "pg.asset.manager",
+        "iles",
+        "@unocss/preset-icons",
+        "project",
+        "app_designer",
+        "vue",
+        "unplugin-vue-components",
+        "tw",
+        "pg.html"
+      ]
+    },
+    "src/components/HeroSection.vue": {
+      "frameworks": [
+        "pg.insight.events",
+        "unplugin-auto-import",
+        "vite-plugin-vue-devtools",
+        "pg.vue.tree.painter",
+        "pg.css.grid",
+        "@islands/pages",
+        "pg.image.overlay",
+        "pg.code-validator",
+        "pg.project.items",
+        "pg.asset.manager",
+        "app_designer",
+        "@pinegrow/iles-module",
+        "vue",
+        "@vue/devtools",
+        "iles",
+        "project",
+        "unplugin-vue-components",
+        "@unocss/preset-icons",
+        "tw.flowbite",
+        "tw",
+        "pg.html"
+      ]
+    },
+    "src/components/HelpingAnimals.vue": {
+      "frameworks": [
+        "vite-plugin-vue-devtools",
+        "pg.insight.events",
+        "pg.vue.tree.painter",
+        "@islands/pages",
+        "pg.css.grid",
+        "@vue/devtools",
+        "@pinegrow/iles-module",
+        "pg.image.overlay",
+        "pg.code-validator",
+        "iles",
+        "pg.project.items",
+        "pg.asset.manager",
+        "@unocss/preset-icons",
+        "app_designer",
+        "vue",
+        "project",
+        "unplugin-vue-components",
+        "tw",
+        "pg.html"
+      ]
+    },
+    "src/components/NavBar.vue": {
+      "frameworks": [
+        "vite-plugin-vue-devtools",
+        "@vue/devtools",
+        "@unocss/preset-icons",
+        "@islands/pages",
+        "unplugin-vue-components",
+        "@pinegrow/iles-module",
+        "iles",
+        "vue",
+        "app_designer",
+        "project",
+        "pg.insight.events",
+        "pg.vue.tree.painter",
+        "pg.css.grid",
+        "pg.image.overlay",
+        "pg.code-validator",
+        "pg.project.items",
+        "pg.asset.manager",
+        "tw",
+        "pg.html"
+      ]
+    },
+    "src/components/NavBarDesktopTabs.vue": {
+      "frameworks": [
+        "vite-plugin-vue-devtools",
+        "@vue/devtools",
+        "@unocss/preset-icons",
+        "@islands/pages",
+        "unplugin-vue-components",
+        "@pinegrow/iles-module",
+        "iles",
+        "vue",
+        "app_designer",
+        "project",
+        "pg.insight.events",
+        "pg.vue.tree.painter",
+        "pg.css.grid",
+        "pg.image.overlay",
+        "pg.code-validator",
+        "pg.project.items",
+        "pg.asset.manager",
+        "tw",
+        "pg.html"
+      ]
+    },
+    "src/pages/explore.vue": {
+      "frameworks": [
+        "unplugin-auto-import",
+        "vite-plugin-vue-devtools",
+        "pg.insight.events",
+        "pg.vue.tree.painter",
+        "@vue/devtools",
+        "@islands/pages",
+        "pg.css.grid",
+        "@unocss/preset-icons",
+        "pg.image.overlay",
+        "pg.code-validator",
+        "@pinegrow/iles-module",
+        "pg.project.items",
+        "iles",
+        "unplugin-vue-components",
+        "pg.asset.manager",
+        "project",
+        "app_designer",
+        "vue",
+        "tw",
+        "pg.html"
+      ]
+    },
+    "src/components/GetInvolved.vue": {
+      "frameworks": [
+        "vite-plugin-vue-devtools",
+        "pg.insight.events",
+        "pg.vue.tree.painter",
+        "@islands/pages",
+        "@vue/devtools",
+        "pg.css.grid",
+        "@pinegrow/iles-module",
+        "pg.image.overlay",
+        "iles",
+        "@unocss/preset-icons",
+        "pg.code-validator",
+        "pg.project.items",
+        "pg.asset.manager",
+        "unplugin-vue-components",
+        "app_designer",
+        "vue",
+        "project",
+        "tw",
+        "pg.html"
+      ]
+    },
+    "src/components/DiscoverProjects.vue": {
+      "frameworks": [
+        "vite-plugin-vue-devtools",
+        "@vue/devtools",
+        "@unocss/preset-icons",
+        "@islands/pages",
+        "unplugin-vue-components",
+        "@pinegrow/iles-module",
+        "iles",
+        "vue",
+        "app_designer",
+        "project",
+        "pg.insight.events",
+        "pg.vue.tree.painter",
+        "pg.css.grid",
+        "pg.image.overlay",
+        "pg.code-validator",
+        "pg.project.items",
+        "pg.asset.manager",
+        "tw",
+        "pg.html"
+      ]
+    },
+    "src/components/ProjectCard.vue": {
+      "frameworks": [
+        "vite-plugin-vue-devtools",
+        "@vue/devtools",
+        "@unocss/preset-icons",
+        "@islands/pages",
+        "unplugin-vue-components",
+        "@pinegrow/iles-module",
+        "iles",
+        "vue",
+        "app_designer",
+        "project",
+        "pg.insight.events",
+        "pg.vue.tree.painter",
+        "pg.css.grid",
+        "pg.image.overlay",
+        "pg.code-validator",
+        "pg.project.items",
+        "pg.asset.manager",
+        "tw",
+        "pg.html"
+      ]
+    },
+    "src/components/GetInvolvedSvelty.svelte": {
+      "frameworks": [
+        "vite-plugin-vue-devtools",
+        "pg.insight.events",
+        "@vue/devtools",
+        "pg.vue.tree.painter",
+        "@unocss/preset-icons",
+        "@islands/pages",
+        "pg.css.grid",
+        "unplugin-vue-components",
+        "project",
+        "pg.image.overlay",
+        "@pinegrow/iles-module",
+        "pg.code-validator",
+        "iles",
+        "pg.project.items",
+        "vue",
+        "pg.asset.manager",
+        "app_designer",
+        "tw",
+        "pg.html"
+      ]
+    },
+    "src/pages/contact-us.vue": {
+      "frameworks": [
+        "vite-plugin-vue-devtools",
+        "@vue/devtools",
+        "@unocss/preset-icons",
+        "@islands/pages",
+        "unplugin-auto-import",
+        "unplugin-vue-components",
+        "@pinegrow/iles-module",
+        "iles",
+        "vue",
+        "app_designer",
+        "project",
+        "pg.insight.events",
+        "pg.vue.tree.painter",
+        "pg.css.grid",
+        "pg.image.overlay",
+        "pg.code-validator",
+        "pg.project.items",
+        "pg.asset.manager",
+        "tw",
+        "pg.html"
+      ]
+    }
+  },
+  "template_framework_id": "vue",
+  "open-pages": ["src/components/HeroSection.vue"],
+  "breakpoints": ["640px", "768px", "1024px", "1280px", "1536px"],
+  "frameworks": [
+    "pg.insight.events",
+    "unplugin-auto-import",
+    "vite-plugin-vue-devtools",
+    "pg.vue.tree.painter",
+    "pg.css.grid",
+    "@islands/pages",
+    "pg.image.overlay",
+    "pg.code-validator",
+    "pg.project.items",
+    "pg.asset.manager",
+    "app_designer",
+    "@pinegrow/iles-module",
+    "vue",
+    "@vue/devtools",
+    "iles",
+    "project",
+    "unplugin-vue-components",
+    "@unocss/preset-icons",
+    "tw.flowbite",
+    "tw",
+    "pg.html"
+  ],
+  "urls": {
+    "src/pages/index.vue": { "open-page-views": [{ "w": 768, "h": 0 }] },
+    "src/layouts/default.vue": { "open-page-views": [{ "w": 1024, "h": 0 }] },
+    "src/components/HeroSection.vue": {
+      "open-page-views": [{ "w": 1024, "h": 0 }]
+    },
+    "src/components/HelpingAnimals.vue": {
+      "open-page-views": [{ "w": 1024, "h": 0 }]
+    },
+    "src/components/NavBar.vue": { "open-page-views": [{ "w": 1024, "h": 0 }] },
+    "src/components/NavBarDesktopTabs.vue": {
+      "open-page-views": [{ "w": 1024, "h": 0 }]
+    },
+    "src/pages/explore.vue": { "open-page-views": [{ "w": 1024, "h": 0 }] },
+    "src/components/GetInvolved.vue": {
+      "open-page-views": [{ "w": 1024, "h": 0 }]
+    },
+    "src/components/DiscoverProjects.vue": {
+      "open-page-views": [{ "w": 1024, "h": 0 }]
+    },
+    "src/components/ProjectCard.vue": {
+      "open-page-views": [{ "w": 1024, "h": 0 }]
+    },
+    "src/components/GetInvolvedSvelty.svelte": {
+      "open-page-views": [{ "w": 1024, "h": 0 }]
+    },
+    "src/pages/contact-us.vue": { "open-page-views": [{ "w": 1024, "h": 0 }] }
+  },
+  "recent-classes": [
+    "pb-12",
+    "pb-24",
+    "text-primary-600",
+    "mx-auto",
+    "container",
+    "bg-primary-100",
+    "text-center",
+    "oz-wildlife",
+    "spotted-kingfisher",
+    "bg-neutral-950",
+    "bg-black",
+    "bg-transparent",
+    "text-sm",
+    "text-neutral-400",
+    "text-neutral-800",
+    "text-neutral-950",
+    "tracking-wide",
+    "tracking-normal",
+    "tracking-wider",
+    "tracking-widest",
+    "-tracking-widest",
+    "-tracking-wider",
+    "-tracking-wide",
+    "font-serif",
+    "text-neutral-100"
+  ],
+  "ai-project-brief": null
+}
