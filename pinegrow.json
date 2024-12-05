@@ -314,7 +314,7 @@
     "src/pages/index.vue": { "open-page-views": [{ "w": 768, "h": 0 }] },
     "src/layouts/default.vue": { "open-page-views": [{ "w": 1024, "h": 0 }] },
     "src/components/HeroSection.vue": {
-      "open-page-views": [{ "w": 1024, "h": 0 }]
+      "open-page-views": [{ "w": 768, "h": 0 }]
     },
     "src/components/HelpingAnimals.vue": {
       "open-page-views": [{ "w": 1024, "h": 0 }]
