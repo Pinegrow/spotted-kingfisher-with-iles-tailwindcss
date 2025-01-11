@@ -1,19 +1,17 @@
 <script setup lang="ts">
-  import { computed } from 'vue'
-  import { useNavMenu } from '@/composables/nav-menu'
+  defineProps({
+    currentPath: {
+      type: String,
+      default: '/',
+    },
+  })
 
-  const { navlinks, currentPath } = useNavMenu()
-  const desktopNavTabs = computed(() => {
-    return navlinks.value.slice(0, 2)
-  })
-  const mobileNavTabs = computed(() => {
-    return navlinks.value.slice(2, navlinks.value.length)
-  })
+  const { allNavs, navsPrimary, navsSecondary } = useNavMenu()
 </script>
 <template>
   <div class="w-full">
     <nav class>
-      <div class="container mx-auto px-4 md:px-6">
+      <div class="container mx-auto px-4 sm:px-6">
         <div class="flex h-24 items-center justify-between">
           <div class="flex items-center justify-between w-full">
             <div class="flex flex-shrink-0 items-center">
@@ -22,63 +20,59 @@
                 class="flex items-center text-primary-600 dark:text-primary-200"
               >
                 <svg
+                  version="1.0"
                   xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 512"
-                  height="2em"
-                  width="2em"
-                  class="inline mr-2"
+                  width="2.5em"
+                  xml:space="preserve"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-width="3px"
+                  viewBox="0 0 48 48"
+                  height="2.5em"
+                  class="font-extrabold mr-2 text-xl"
                 >
                   <path
-                    d="M512 256c0 141.4-114.6 256-256 256S0 397.4 0 256 114.6 0 256 0s256 114.6 256 256z"
-                    fill="currentColor"
-                    class="text-primary-500"
+                    d="M33 24a14.46 14.46 0 00-2.69-7.91 14.66 14.66 0 00-1-1.24c-.18-.2-.36-.4-.56-.59s-.39-.38-.59-.56A14.53 14.53 0 005.41 30.9a5.38 5.38 0 01.39.75 8.43 8.43 0 01.71 4.79 8.43 8.43 0 014.79.71 5.38 5.38 0 01.75.39 14.57 14.57 0 0011.66.47"
                   ></path>
-                  <g fill="currentColor" class="text-gray-800">
-                    <path
-                      d="M351.2 232c16.7 16.7 16.7 43.9 0 60.6l-61.7 61.7c-16.7 16.7-43.9 16.7-60.6 0l-.2-.2c-16.7-16.7-16.7-43.9 0-60.6l61.7-61.7c16.7-16.7 43.9-16.7 60.6 0l.2.2z"
-                    ></path>
-                    <path
-                      d="M297.4 239.4c21.1 21.1 24.6 52 7.7 68.9-16.9 16.9-47.7 13.5-68.9-7.7-21.1-21.1-24.6-52-7.7-68.9 16.9-16.9 47.8-13.5 68.9 7.7zm-36.2-84.9c13.1 13.1 13.1 34.2 0 47.3-13.1 13.1-34.2 13.1-47.3 0-13.1-13.1-13.1-34.2 0-47.3 13.1-13.1 34.2-13.1 47.3 0zm-62.6 62.6c13.1 13.1 13.1 34.2 0 47.3-13.1 13.1-34.2 13.1-47.3 0-13.1-13.1-13.1-34.2 0-47.3 13.1-13.1 34.2-13.1 47.3 0zM194.1 303c10.9 10.9 10.9 28.7 0 39.6-10.9 10.9-28.7 10.9-39.6 0-10.9-10.9-10.9-28.7 0-39.6 10.9-10.9 28.6-10.9 39.6 0zm145.4-145.4c10.9 10.9 10.9 28.7 0 39.6-10.9 10.9-28.7 10.9-39.6 0-10.9-10.9-10.9-28.7 0-39.6 10.9-10.9 28.6-10.9 39.6 0z"
-                    ></path>
-                  </g></svg
-                ><span class="font-sans relative text-2xl top-1"
-                  >The Spotted Kingfisher</span
-                ></a
-              >
+                  <path
+                    d="M30.93 10.62s0 1.46-2.18 3.64M44 24a15 15 0 01-30 0zm-15 4v11m-3-12l-7 7m20 0l-7-7"
+                  ></path>
+                  <path d="M-423-219h690v690h-690z"></path>
+                </svg>
+                <h6 class="font-extrabold leading-none pt-2 text-xl">
+                  Nature's<br />Delight
+                </h6>
+              </a>
             </div>
-            <NavBarDesktopMenu
-              :navlinks="desktopNavTabs"
+            <NavPrimary
+              :navs="navsPrimary"
               :current-path="currentPath"
-              class="hidden md:flex md:ml-6"
-              client:media="screen and (min-width: 768px)"
+              class="hidden sm:flex sm:ml-6"
+              client:media="screen and (min-width: 640px)"
             />
           </div>
           <DarkModeSwitch client:load />
           <div class="-mr-2 items-center relative">
-            <NavBarMobileMenuButton
-              v-if="mobileNavTabs.length"
-              class="hidden md:block"
+            <NavHamburger
+              v-if="navsSecondary.length"
+              class="hidden sm:block"
               client:load
             />
-            <NavBarMobileMenuButton
-              v-if="navlinks.length"
-              class="md:hidden"
-              client:load
-            />
-            <NavBarMobileMenu
-              class="hidden md:flex md:justify-end absolute right-0 mt-4"
-              :navlinks="mobileNavTabs"
+            <NavHamburger v-if="allNavs.length" class="sm:hidden" client:load />
+            <NavSecondary
+              class="hidden sm:flex sm:justify-end absolute right-0 mt-4"
+              :navs="navsSecondary"
               :current-path="currentPath"
-              client:media="screen and (min-width: 768px)"
+              client:media="screen and (min-width: 640px)"
             />
           </div>
         </div>
       </div>
-      <NavBarMobileMenu
-        class="md:hidden"
-        :navlinks="navlinks"
+      <NavSecondary
+        class="sm:hidden"
+        :navs="allNavs"
         :current-path="currentPath"
-        client:media="screen and (max-width: 768px)"
+        client:media="screen and (max-width: 640px)"
       />
     </nav>
   </div>

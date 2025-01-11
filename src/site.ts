@@ -4,12 +4,38 @@
 
 export default {
   title: 'Spotted Kingfisher',
-  description: `Help the world's most iconic species`,
+  description: "Help the world's most iconic species",
+  logo: 'i-vscode-icons:file-type-coffeelint',
   author: 'Pinegrow',
   url: 'https://spotted-kingfisher-iles-tailwindcss.netlify.app',
-  nav: [
-    { text: 'Home', link: '/' },
-    { text: 'Explore', link: '/explore' },
-    { text: 'Contact Us', link: '/contact-us' },
-  ],
+  github: 'https://github.com/pinegrow/pg-iles-tailwindcss',
+  defaultLocale: 'en', // default
+  identity: {
+    type: 'Organization',
+  } as any,
+  twitter: '@vuedesigner',
+  trailingSlash: false, // default
+  titleSeparator: '|', // default
+
+  navs: {
+    primary: [
+      {
+        title: 'Home',
+        icon: 'i-mdi-home',
+        to: '/',
+      },
+      {
+        title: 'Explore',
+        icon: 'i-mdi-home',
+        to: '/explore',
+      },
+    ],
+    secondary: [
+      {
+        title: 'Contact Us',
+        icon: 'i-mdi-home',
+        to: '/contact-us',
+      },
+    ],
+  },
 }
