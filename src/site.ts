@@ -9,6 +9,8 @@ export default {
   author: 'Pinegrow',
   url: 'https://spotted-kingfisher-iles-tailwindcss.netlify.app',
   github: 'https://github.com/pinegrow/pg-iles-tailwindcss',
+  ogImageUrl: 'og-image.jpg', // absolute url (or) from public folder
+  generator: 'https://vuedesigner.com',
   defaultLocale: 'en', // default
   identity: {
     type: 'Organization',

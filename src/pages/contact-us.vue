@@ -1,3 +1,7 @@
+<page>
+  title: Contact Us!
+</page>
+
 <template>
   <div>
     <div
